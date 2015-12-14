@@ -1,0 +1,10 @@
+doctype html
+
+html
+  head
+    meta(charset='UTF-8')
+    title My Dictionary 
+  
+  body
+    #root(class='myDict')
+    script(src=env == 'prod' ? '/js/window.bundle.js' : 'https://localhost:3000/js/window.bundle.js')
